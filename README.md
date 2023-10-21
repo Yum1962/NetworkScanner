@@ -24,6 +24,7 @@ Em seguida, você pode usar a ferramenta da seguinte maneira:
 ./scan.sh 192.168.3
 
 Certifique-se de passar apenas o prefixo do IP, e a ferramenta irá verificar todos os IPs no intervalo de 1 a 254 para determinar o status "ONLINE" ou "OFFLINE".
+Todos os IPs verificados com status 'ONLINE' são salvos no arquivo 'online_ips.txt'.
 
 
 ----------------------------------
@@ -44,9 +45,10 @@ Then, you can use the tool as follows:
 
 Make sure to pass only the IP prefix, and the tool will check all IPs in the range from 1 to 254 to determine the "ONLINE" or "OFFLINE" status.
 
+All IPs verified with an 'ONLINE' status are saved in the 'online_ips.txt' file.
+
 
 ----------------------------------
-
 
 
 Documentación en Español
@@ -63,3 +65,5 @@ chmod +x scan.sh
 
 
 Asegúrese de pasar solo el prefijo de la IP y la herramienta verificará todas las IP en el rango del 1 al 254 para determinar el estado "EN LÍNEA" o "FUERA DE LÍNEA".
+
+Todos los IPs verificados con un estado 'EN LÍNEA' se guardan en el archivo 'online_ips.txt'.

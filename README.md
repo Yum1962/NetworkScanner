@@ -1,22 +1,12 @@
-  _________                                                                          
- /   _____/ ____ _____    ____                                                       
- \_____  \_/ ___\\__  \  /    \                                                      
- /        \  \___ / __ \|   |  \                                                     
-/_______  /\___  >____  /___|  /                                                     
-        \/     \/     \/     \/                                                      
-  _________               __                 .__          _____  _______      _____  
- /   _____/__.__. _______/  |_  ____   _____ |__| ____   /  |  | \   _  \    /  |  | 
- \_____  <   |  |/  ___/\   __\/ __ \ /     \|  |/ ___\ /   |  |_/  /_\  \  /   |  |_
- /        \___  |\___ \  |  | \  ___/|  Y Y  \  \  \___/    ^   /\  \_/   \/    ^   /
-/_______  / ____/____  > |__|  \___  >__|_|  /__|\___  >____   |  \_____  /\____   | 
-        \/\/         \/            \/      \/        \/     |__|        \/      |__| 
+![ScanSystemic404](https://i.imgur.com/Yy7vv6j.png)
+
 
 
 Documentação
 - [Português]
 - [English]
 - [Español]
-
+----------------------------------
 Documentação em Português
 
 Esta ferramenta foi criada para verificar o status de IPs em uma rede. Ela permite verificar se um determinado intervalo de IPs está online ou offline.
@@ -36,6 +26,9 @@ Em seguida, você pode usar a ferramenta da seguinte maneira:
 Certifique-se de passar apenas o prefixo do IP, e a ferramenta irá verificar todos os IPs no intervalo de 1 a 254 para determinar o status "ONLINE" ou "OFFLINE".
 
 
+----------------------------------
+
+
 English Documentation
 This tool was created to check the status of IPs in a network. It allows you to check whether a specific range of IPs is online or offline.
 
@@ -50,6 +43,11 @@ Then, you can use the tool as follows:
 ./scan.sh 192.168.3
 
 Make sure to pass only the IP prefix, and the tool will check all IPs in the range from 1 to 254 to determine the "ONLINE" or "OFFLINE" status.
+
+
+----------------------------------
+
+
 
 Documentación en Español
 Esta herramienta fue creada para verificar el estado de las direcciones IP en una red. Permite comprobar si un rango específico de direcciones IP está en línea u fuera de línea.
